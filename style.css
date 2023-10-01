@@ -136,28 +136,6 @@ padding: 20px;
   justify-content: flex-end;
 }
 
-.logo{
-  
-}
-
-.info{
-  justify-content: center;
-}
-
-
-  .nav {
-    display: none;
-  }
-  header{
-    width: 100vw;
-  }
-  .responsive-nav {
-    width: 100vw;
-    display: block;
-   
-  }
-
-
   .responsive-nav .icon-for-slide {
         font-size: 28px;
         padding: 25px 30px;
@@ -165,11 +143,8 @@ padding: 20px;
         right: 0;
         position: absolute;
         z-index: 10;
-         
-
-        
-      
   }
+  
   .responsive-nav .responsive-ul {
     width: 50%;
     text-align: center;
@@ -185,6 +160,10 @@ padding: 20px;
     z-index: 1;
 
   }
+  .info{
+  justify-content: center;
+}
+
   .responsive-ul li{
     padding: 20px 0;
     display: flex;
@@ -196,8 +175,27 @@ padding: 20px;
         text-decoration: none;
         color: #333;
   }
-}
 
+
+
+
+
+  .nav {
+    display: none;
+  }
+  header{
+    width: 100vw;
+  }
+  .responsive-nav {
+    width: 100vw;
+    display: block;
+    margin-top: 30px;
+   
+  }
+*/
+
+
+}
 
 @keyframes desaparecerNav{
     0% {
